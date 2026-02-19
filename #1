@@ -1,4 +1,4 @@
-[9:54 PM, 2/18/2026] Juan Manuel Uni: def par_impar(n):
+par_impar(n):
     
     if n % 2 == 0:
         return "El numero es par"
@@ -9,30 +9,5 @@ numero = int(input("Ingresa un numero: "))
 resultado = par_impar(numero)
 print(resultado)
 
-# escomplejidad 0(1) ya que no importa si el numero es muy pequeño o demasiado grande el proceso va a hacer lo mismo, no va a cambiar dependiendo del valor del numero.
-[9:54 PM, 2/18/2026] Juan Manuel Uni: def ultimo_digito(n):
-    
-    resultado = n % 10
-    return resultado
+# es complejidad 0(1) ya que no importa si el numero es muy pequeño o demasiado grande el proceso va a hacer lo mismo, no va a cambiar dependiendo del valor del numero.
 
-numero = int(input("Ingrese un número: "))
-
-print(f"El último dígito de {numero} es: {ultimo_digito(numero)}")
-
-# al igual que el otro este ejercicio el complejidad 0(1) ya no importa el valor del digito que ingresemos  el tiempo de ejecución va ser el mismo igual que el número de pasos siempre va ser el mismo no va a aumentar.
-[9:54 PM, 2/18/2026] Juan Manuel Uni: def numero_mayor(a, b):
-
-    if a > b:
-        return a
-        
-    else:
-        return b
-    
-a = int(input("Ingrese el primer numero:"))
-b = int(input("Ingrese el segundo numero:"))
-
-resultado = numero_mayor(a, b)
-
-print(f"El numero mayor entre {a} y {b} es: {resultado}")
-
-# este ejercio es 0(1) por que solo se hace una comparacion de dos valores no importa si son pequeños o grandes el tiempo de ejecucion va ser el mismo igual que el numero de pasos que son 2 la comparacion de los valores y el retorn del numero mayor.
